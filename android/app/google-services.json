@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "234440002879",
+    "project_id": "im-app-android",
+    "storage_bucket": "im-app-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234440002879:android:f713f1de37d252052c578a",
+        "android_client_info": {
+          "package_name": "com.incredibleman.incredibleman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234440002879-omru5u25lckgo93hle4ubru64cfh745n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.incredibleman.incredibleman",
+            "certificate_hash": "b3b187d03c921cf0c6f831255267039443358a4b"
+          }
+        },
+        {
+          "client_id": "234440002879-59ndq7fn1r5r701mngpe2m3dgtdo3mbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ULqKbIKfxdSGW_K4qwbZ7-NyDYtManc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234440002879-59ndq7fn1r5r701mngpe2m3dgtdo3mbq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "234440002879-08235d2bl55nr07ls3s6btoeljdvbgik.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.incredibleman.incredibleman"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/4d2cb1e3dec5bab8870573ecf93b59a3/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/4d2cb1e3dec5bab8870573ecf93b59a3/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/4d2cb1e3dec5bab8870573ecf93b59a3/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/4d2cb1e3dec5bab8870573ecf93b59a3/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
+    }
+]

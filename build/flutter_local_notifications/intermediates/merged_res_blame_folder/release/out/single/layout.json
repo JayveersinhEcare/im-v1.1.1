@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_big_media.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_media.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_res/release/layout/notification_media_action.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/res/layout/notification_media_action.xml"
+    }
+]

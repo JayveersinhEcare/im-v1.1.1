@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/rzp_loader_circle.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/res/drawable/rzp_loader_circle.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/rzp_secured_by_bg.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/res/drawable/rzp_secured_by_bg.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/rzp_border.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/res/drawable/rzp_border.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/rzp_poweredby.png",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/res/drawable/rzp_poweredby.png"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/rzp_white_border_black_bg.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/res/drawable/rzp_white_border_black_bg.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/rzp_border_bottom.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/res/drawable/rzp_border_bottom.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/rzp_green_button.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/res/drawable/rzp_green_button.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/toast_bg.xml",
+        "source": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/fluttertoast/intermediates/packaged_res/release/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/corner.xml",
+        "source": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/fluttertoast/intermediates/packaged_res/release/drawable/corner.xml"
+    },
+    {
+        "merged": "/Users/ecareinfoway/Desktop/getx example/incredible_man/build/razorpay_flutter/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/ecareinfoway/.gradle/caches/transforms-3/8820b4b9dcf76d3888278056ca5efb86/transformed/jetified-play-services-base-17.5.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    }
+]

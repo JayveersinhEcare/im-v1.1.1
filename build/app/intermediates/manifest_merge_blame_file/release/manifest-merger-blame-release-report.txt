@@ -1,0 +1,680 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.incredibleman.incredibleman"
+4    android:versionCode="14"
+5    android:versionName="1.1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <queries>
+13-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:4:5-18:15
+14        <intent>
+14-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:5:10-8:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:13-65
+15-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:21-62
+16
+17            <data android:scheme="https" />
+17-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+17-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+18        </intent>
+19        <intent>
+19-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:9:9-12:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:13-65
+20-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:21-62
+21
+22            <data android:scheme="sms" />
+22-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+22-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+23        </intent>
+24        <!-- If your app checks for call support -->
+25        <intent>
+25-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:14:9-17:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:13-65
+26-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:21-62
+27
+28            <data android:scheme="tel" />
+28-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+28-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+29        </intent>
+30        <intent>
+30-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:12:9-18:18
+31            <action android:name="android.intent.action.VIEW" />
+31-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:13-65
+31-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:21-62
+32
+33            <data
+33-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+34                android:mimeType="*/*"
+35                android:scheme="*" />
+35-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+36        </intent>
+37        <intent>
+37-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:19:9-28:18
+38            <action android:name="android.intent.action.VIEW" />
+38-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:13-65
+38-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:21-62
+39
+40            <category android:name="android.intent.category.BROWSABLE" />
+40-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+40-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+41
+42            <data
+42-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+43                android:host="pay"
+44                android:mimeType="*/*"
+45                android:scheme="upi" />
+45-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+46        </intent>
+47        <intent>
+47-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:29:9-31:18
+48            <action android:name="android.intent.action.MAIN" />
+48-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:42:17-68
+48-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:42:25-66
+49        </intent>
+50        <intent>
+50-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:32:9-36:18
+51            <action android:name="android.intent.action.SEND" />
+51-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:33:13-65
+51-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:33:21-62
+52
+53            <data android:mimeType="*/*" />
+53-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+54        </intent>
+55    </queries>
+56
+57    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+57-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:63:6-78
+57-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:63:23-75
+58    <uses-permission android:name="android.permission.WAKE_LOCK" />
+58-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+58-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+59-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+59-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+60    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+60-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+60-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+61    <uses-permission android:name="android.permission.VIBRATE" />
+61-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+61-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+62    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+62-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+62-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+63    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+63-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+63-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+64    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+64-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:5-77
+64-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:22-74
+65    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+65-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:5-82
+65-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:22-79
+66    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+66-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/beb1f620abc2a3ff161b1057d4b884fe/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+66-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/beb1f620abc2a3ff161b1057d4b884fe/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+67    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+67-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+67-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+68
+69    <uses-feature
+69-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ebdf4c2ec5d8aba94a63873d1d9c4d2a/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+70        android:glEsVersion="0x00020000"
+70-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ebdf4c2ec5d8aba94a63873d1d9c4d2a/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+71        android:required="true" />
+71-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ebdf4c2ec5d8aba94a63873d1d9c4d2a/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+72
+73    <application
+74        android:name="android.app.Application"
+74-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:21:9-42
+75        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+75-->[androidx.core:core:1.7.0] /Users/ecareinfoway/.gradle/caches/transforms-3/4d2cb1e3dec5bab8870573ecf93b59a3/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+76        android:icon="@mipmap/launcher_icon"
+76-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:22:9-45
+77        android:label="Incredible Man" >
+77-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:20:9-39
+78        <activity
+78-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:23:9-49:20
+79            android:name="com.incredibleman.incredibleman.MainActivity"
+79-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:24:13-41
+80            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+80-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:28:13-163
+81            android:exported="true"
+81-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:25:13-36
+82            android:hardwareAccelerated="true"
+82-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:29:13-47
+83            android:launchMode="singleTop"
+83-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:26:13-43
+84            android:showWhenLocked="false"
+84-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:30:13-43
+85            android:theme="@style/LaunchTheme"
+85-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:27:13-47
+86            android:turnScreenOn="true"
+86-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:31:13-40
+87            android:windowSoftInputMode="adjustResize" >
+87-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:32:13-55
+88
+89            <!--
+90                 Specifies an Android theme to apply to this Activity as soon as
+91                 the Android process has started. This theme is visible to the user
+92                 while the Flutter UI initializes. After that, this theme continues
+93                 to determine the Window background behind the Flutter UI.
+94            -->
+95            <meta-data
+95-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:37:13-40:17
+96                android:name="io.flutter.embedding.android.NormalTheme"
+96-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:38:15-70
+97                android:resource="@style/NormalTheme" />
+97-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:39:15-52
+98
+99            <intent-filter>
+99-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:41:13-44:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:42:17-68
+100-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:42:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:43:17-76
+102-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:43:27-74
+103            </intent-filter>
+104            <intent-filter>
+104-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:45:13-48:29
+105                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+105-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:46:17-69
+105-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:46:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:47:17-76
+107-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:47:27-73
+108            </intent-filter>
+109        </activity>
+110
+111        <meta-data
+111-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:50:9-52:66
+112            android:name="com.google.firebase.messaging.default_notification_channel_id"
+112-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:51:17-93
+113            android:value="default_notification_channel_id" />
+113-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:52:17-64
+114        <!--
+115             Don't delete the meta-data below.
+116             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+117        -->
+118        <meta-data
+118-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:55:9-57:33
+119            android:name="flutterEmbedding"
+119-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:56:13-44
+120            android:value="2" />
+120-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:57:13-30
+121
+122        <service
+122-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:58:9-61:43
+123            android:name="com.dexterous.flutterlocalnotifications.ForegroundService"
+123-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:59:13-85
+124            android:exported="false"
+124-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:60:13-37
+125            android:stopWithTask="false" />
+125-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:61:13-41
+126        <service
+126-->[:firebase_auth] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+127            android:name="com.google.firebase.components.ComponentDiscoveryService"
+127-->[:firebase_auth] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+128            android:directBootAware="true"
+128-->[com.google.firebase:firebase-common:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+129            android:exported="false" >
+129-->[com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ce33762e427c1f4254beb403ef90f455/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:10:13-37
+130            <meta-data
+130-->[:firebase_auth] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+131                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+131-->[:firebase_auth] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[:firebase_auth] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+133            <meta-data
+133-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-38:85
+134                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+134-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:17-128
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:17-82
+136            <meta-data
+136-->[:firebase_core] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+137                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+137-->[:firebase_core] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[:firebase_core] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ce33762e427c1f4254beb403ef90f455/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:11:13-13:85
+140                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+140-->[com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ce33762e427c1f4254beb403ef90f455/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:12:17-126
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ce33762e427c1f4254beb403ef90f455/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:13:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/f3d7e9668ed11041c0e32f4e973829df/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+143                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+143-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/f3d7e9668ed11041c0e32f4e973829df/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/f3d7e9668ed11041c0e32f4e973829df/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
+146                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+146-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/ecareinfoway/.gradle/caches/transforms-3/2c4a5fe68793fe852d9738759d92e2b4/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+149                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+149-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/ecareinfoway/.gradle/caches/transforms-3/2c4a5fe68793fe852d9738759d92e2b4/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/ecareinfoway/.gradle/caches/transforms-3/2c4a5fe68793fe852d9738759d92e2b4/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+152                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+152-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+154            <meta-data
+154-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/beb1f620abc2a3ff161b1057d4b884fe/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+155                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+155-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/beb1f620abc2a3ff161b1057d4b884fe/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/beb1f620abc2a3ff161b1057d4b884fe/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-installations:17.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/9732389629c1af7c438b9abf5dfe7f40/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+158                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+158-->[com.google.firebase:firebase-installations:17.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/9732389629c1af7c438b9abf5dfe7f40/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-installations:17.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/9732389629c1af7c438b9abf5dfe7f40/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+160        </service>
+161        <service
+161-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-17:72
+162            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+162-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-107
+163            android:exported="false"
+163-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+164            android:permission="android.permission.BIND_JOB_SERVICE" />
+164-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-69
+165        <service
+165-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-24:19
+166            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+166-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-97
+167            android:exported="false" >
+167-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+168            <intent-filter>
+168-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:29
+169                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+169-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-78
+169-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-75
+170            </intent-filter>
+171        </service>
+172
+173        <receiver
+173-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-33:20
+174            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+174-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-98
+175            android:exported="true"
+175-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
+176            android:permission="com.google.android.c2dm.permission.SEND" >
+176-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-73
+177            <intent-filter>
+177-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+178                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+178-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+178-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+179            </intent-filter>
+180        </receiver>
+181
+182        <provider
+182-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-45:38
+183            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+183-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-102
+184            android:authorities="com.incredibleman.incredibleman.flutterfirebasemessaginginitprovider"
+184-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-88
+185            android:exported="false"
+185-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-37
+186            android:initOrder="99" />
+186-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-35
+187
+188        <receiver
+188-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:40
+189            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+189-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-97
+190            android:exported="false" />
+190-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+191        <receiver
+191-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-27:20
+192            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+192-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-101
+193            android:exported="false" >
+193-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+194            <intent-filter>
+194-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-26:29
+195                <action android:name="android.intent.action.BOOT_COMPLETED" />
+195-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-79
+195-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-76
+196                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+196-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-84
+196-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:25-81
+197                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+197-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-82
+197-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-79
+198                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+198-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-82
+198-->[:flutter_local_notifications] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-79
+199            </intent-filter>
+200        </receiver>
+201
+202        <activity
+202-->[:url_launcher_android] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+203            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+203-->[:url_launcher_android] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+204            android:exported="false"
+204-->[:url_launcher_android] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+205            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+205-->[:url_launcher_android] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+206
+207        <provider
+207-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+208            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+208-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+209            android:authorities="com.incredibleman.incredibleman.flutter.share_provider"
+209-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+210            android:exported="false"
+210-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+211            android:grantUriPermissions="true" >
+211-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+212            <meta-data
+212-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:68
+213                android:name="android.support.FILE_PROVIDER_PATHS"
+213-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+214                android:resource="@xml/flutter_share_file_paths" />
+214-->[:share_plus] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-65
+215        </provider>
+216
+217        <uses-library
+217-->[androidx.window:window:1.0.0-beta04] /Users/ecareinfoway/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+218            android:name="androidx.window.extensions"
+218-->[androidx.window:window:1.0.0-beta04] /Users/ecareinfoway/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+219            android:required="false" />
+219-->[androidx.window:window:1.0.0-beta04] /Users/ecareinfoway/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+220        <uses-library
+220-->[androidx.window:window:1.0.0-beta04] /Users/ecareinfoway/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+221            android:name="androidx.window.sidecar"
+221-->[androidx.window:window:1.0.0-beta04] /Users/ecareinfoway/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+222            android:required="false" />
+222-->[androidx.window:window:1.0.0-beta04] /Users/ecareinfoway/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+223
+224        <receiver
+224-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
+225            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+225-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
+226            android:exported="true"
+226-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
+227            android:permission="com.google.android.c2dm.permission.SEND" >
+227-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
+228            <intent-filter>
+228-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+229                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+229-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+229-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+230            </intent-filter>
+231        </receiver>
+232        <!--
+233             FirebaseMessagingService performs security checks at runtime,
+234             but set to not exported to explicitly avoid allowing another app to call it.
+235        -->
+236        <service
+236-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
+237            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+237-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
+238            android:directBootAware="true"
+238-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
+239            android:exported="false" >
+239-->[com.google.firebase:firebase-messaging:23.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66262cb5375ef8a745b0b5cb4c416eac/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
+240            <intent-filter android:priority="-500" >
+240-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:29
+241                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+241-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-78
+241-->[:firebase_messaging] /Users/ecareinfoway/Desktop/getx example/incredible_man/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-75
+242            </intent-filter>
+243        </service>
+244        <service
+244-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66fe29f950a6994306ca24a022db34ea/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+245            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+245-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66fe29f950a6994306ca24a022db34ea/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+246            android:exported="false" >
+246-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66fe29f950a6994306ca24a022db34ea/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+247            <meta-data
+247-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66fe29f950a6994306ca24a022db34ea/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+248                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+248-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66fe29f950a6994306ca24a022db34ea/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+249                android:value="cct" />
+249-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/66fe29f950a6994306ca24a022db34ea/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+250        </service>
+251        <service
+251-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/e41c80c799a4905ddd0b187cd7d991c9/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+252            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+252-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/e41c80c799a4905ddd0b187cd7d991c9/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+253            android:exported="false"
+253-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/e41c80c799a4905ddd0b187cd7d991c9/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+254            android:permission="android.permission.BIND_JOB_SERVICE" >
+254-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/e41c80c799a4905ddd0b187cd7d991c9/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+255        </service>
+256
+257        <receiver
+257-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/e41c80c799a4905ddd0b187cd7d991c9/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+258            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+258-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/e41c80c799a4905ddd0b187cd7d991c9/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+259            android:exported="false" />
+259-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/ecareinfoway/.gradle/caches/transforms-3/e41c80c799a4905ddd0b187cd7d991c9/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+260
+261        <activity
+261-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+262            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+262-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+263            android:excludeFromRecents="true"
+263-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+264            android:exported="true"
+264-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+265            android:launchMode="singleTask"
+265-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+266            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+266-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+267            <intent-filter>
+267-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+268                <action android:name="android.intent.action.VIEW" />
+268-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:13-65
+268-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:21-62
+269
+270                <category android:name="android.intent.category.DEFAULT" />
+270-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:47:17-76
+270-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:47:27-73
+271                <category android:name="android.intent.category.BROWSABLE" />
+271-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+271-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+272
+273                <data
+273-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+274                    android:host="firebase.auth"
+275                    android:path="/"
+276                    android:scheme="genericidp" />
+276-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+277            </intent-filter>
+278        </activity>
+279        <activity
+279-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+280            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+280-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+281            android:excludeFromRecents="true"
+281-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+282            android:exported="true"
+282-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+283            android:launchMode="singleTask"
+283-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+284            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+284-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+285            <intent-filter>
+285-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+286                <action android:name="android.intent.action.VIEW" />
+286-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:13-65
+286-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:6:21-62
+287
+288                <category android:name="android.intent.category.DEFAULT" />
+288-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:47:17-76
+288-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:47:27-73
+289                <category android:name="android.intent.category.BROWSABLE" />
+289-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+289-->[com.google.firebase:firebase-auth:21.0.6] /Users/ecareinfoway/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+290
+291                <data
+291-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+292                    android:host="firebase.auth"
+293                    android:path="/"
+294                    android:scheme="recaptcha" />
+294-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+295            </intent-filter>
+296        </activity>
+297
+298        <provider
+298-->[com.google.firebase:firebase-common:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+299            android:name="com.google.firebase.provider.FirebaseInitProvider"
+299-->[com.google.firebase:firebase-common:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+300            android:authorities="com.incredibleman.incredibleman.firebaseinitprovider"
+300-->[com.google.firebase:firebase-common:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+301            android:directBootAware="true"
+301-->[com.google.firebase:firebase-common:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+302            android:exported="false"
+302-->[com.google.firebase:firebase-common:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+303            android:initOrder="100" />
+303-->[com.google.firebase:firebase-common:20.1.1] /Users/ecareinfoway/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+304
+305        <receiver
+305-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+306            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+306-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+307            android:enabled="true"
+307-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+308            android:exported="false" >
+308-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+309        </receiver>
+310
+311        <service
+311-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+312            android:name="com.google.android.gms.measurement.AppMeasurementService"
+312-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+313            android:enabled="true"
+313-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+314            android:exported="false" />
+314-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+315        <service
+315-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+316            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+316-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+317            android:enabled="true"
+317-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+318            android:exported="false"
+318-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+319            android:permission="android.permission.BIND_JOB_SERVICE" />
+319-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/362a7c0234fd76ed4395c3c6c49cb7bb/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+320
+321        <receiver
+321-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:40:9-46:20
+322            android:name="com.razorpay.RzpTokenReceiver"
+322-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:41:13-57
+323            android:exported="false" >
+323-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:42:13-37
+324            <intent-filter>
+324-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:43:13-45:29
+325                <action android:name="rzp.device_token.share" />
+325-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:44:17-65
+325-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:44:25-62
+326            </intent-filter>
+327        </receiver>
+328
+329        <activity
+329-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:48:9-60:20
+330            android:name="com.razorpay.CheckoutActivity"
+330-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:49:13-57
+331            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+331-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:50:13-83
+332            android:exported="true"
+332-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:51:13-36
+333            android:theme="@style/CheckoutTheme" >
+333-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:52:13-49
+334            <intent-filter>
+334-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:53:13-59:29
+335                <action android:name="android.intent.action.MAIN" />
+335-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:42:17-68
+335-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:42:25-66
+336
+337                <data
+337-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:13-44
+338                    android:host="rzp.io"
+339                    android:scheme="io.rzp" />
+339-->/Users/ecareinfoway/Desktop/getx example/incredible_man/android/app/src/main/AndroidManifest.xml:7:19-41
+340            </intent-filter>
+341        </activity>
+342
+343        <meta-data
+343-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:62:9-64:58
+344            android:name="com.razorpay.plugin.googlepay_all"
+344-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:63:13-61
+345            android:value="com.razorpay.RzpGpayMerged" />
+345-->[com.razorpay:checkout:1.6.19] /Users/ecareinfoway/.gradle/caches/transforms-3/0a736b7919b7425f4e0ad173151fe8b9/transformed/jetified-checkout-1.6.19/AndroidManifest.xml:64:13-55
+346
+347        <activity
+347-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+348            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+348-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+349            android:excludeFromRecents="true"
+349-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+350            android:exported="false"
+350-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+351            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+351-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+352        <!--
+353            Service handling Google Sign-In user revocation. For apps that do not integrate with
+354            Google Sign-In, this service will never be started.
+355        -->
+356        <service
+356-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+357            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+357-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+358            android:exported="true"
+358-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+359            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+359-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+360            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+360-->[com.google.android.gms:play-services-auth:20.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/c08e1e3d39e1a6bb423f464306ae8a05/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+361        <uses-library
+361-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ebdf4c2ec5d8aba94a63873d1d9c4d2a/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+362            android:name="org.apache.http.legacy"
+362-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ebdf4c2ec5d8aba94a63873d1d9c4d2a/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+363            android:required="false" />
+363-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/ebdf4c2ec5d8aba94a63873d1d9c4d2a/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+364
+365        <activity
+365-->[com.google.android.gms:play-services-base:18.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+366            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+366-->[com.google.android.gms:play-services-base:18.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+367            android:exported="false"
+367-->[com.google.android.gms:play-services-base:18.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+368            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+368-->[com.google.android.gms:play-services-base:18.0.1] /Users/ecareinfoway/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+369
+370        <meta-data
+370-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/f0589360d9c02b2f33aa86e62a9e0782/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+371            android:name="com.google.android.gms.version"
+371-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/f0589360d9c02b2f33aa86e62a9e0782/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+372            android:value="@integer/google_play_services_version" />
+372-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ecareinfoway/.gradle/caches/transforms-3/f0589360d9c02b2f33aa86e62a9e0782/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+373    </application>
+374
+375</manifest>
